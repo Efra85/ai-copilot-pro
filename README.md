@@ -6,7 +6,7 @@ O "AI Master Oog", é um Copilot Pro assistente de desenvolvimento Full Stack mo
 
   # 🤖 AI Master Oog
 
-> **[🚀 TESTAR O COPILOT AGORA (DEMO VIVA)](LINK_DO_STREAMLIT)**
+> **[🚀 TESTAR O COPILOT AGORA (DEMO VIVA)](https://ai-copilot-pro.streamlit.app/)**
 > *Interface Full Stack modular com persistência de contexto em tempo real.*
 
 ---
