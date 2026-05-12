@@ -14,9 +14,9 @@ O "AI Master Oog", é um Copilot Pro assistente de desenvolvimento Full Stack mo
 ## 📺 Demonstração em Vídeo
 ![Demonstração do AI Copilot]
 
-<div aling="center">
-  <video src="http://github.com/Efra85/ai-copilot-pro/raw/main/assets
-    /demo_github.mp4" with="100%" controls></video>
+<div align="center">
+  <video src="https://github.com/Efra85/ai-copilot-pro/raw/main/assets
+    /demo_github.mp4" width="100%" controls></video>
   
     *Assista acima aos agentes (Arquiteto, Desenvolvedor, Professor) trabalhando em conjunto.*
 
