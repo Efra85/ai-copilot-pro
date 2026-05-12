@@ -1,16 +1,21 @@
 import os
+import streamlit as st
 from pathlib import Path
 from openai import OpenAI
 from dotenv import load_dotenv
 
-
+load_dotenv()
+ 
 MODEL_ID="llama-3.3-70b-versatile"
 # Carregamento de ambiente
 base_path = Path(__file__).resolve().parent.parent
 env_path = base_path / '.env'
 load_dotenv(dotenv_path=env_path)
 
-api_key = os.getenv("GROQ_API_KEY")
+try:
+  api_key = st.secrets("GROQ_API_KEY") 
+except: 
+  api_key = os.getenv("GROQ_API_KEY")
 
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
